@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Fitness Tracker</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styles -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#workouts">Workouts</a></li>
+                <li><a href="#progress">Progress</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero-image">
+            <img src="pic1.jpg" alt="Fitness Hero Image">
+        </div>
+        <div class="welcome-text">
+            <h1>Welcome to Your Fitness Journey</h1>
+            <p>Track your workouts, monitor progress, and stay motivated!</p>
+        </div>
+    </section>
+
+    <!-- Workout Section -->
+    <section id="workouts">
+        <h2>Your Workouts</h2>
+        <div class="workout-cards">
+            <div class="workout-card">
+                <img src="pic2.jpg" alt="Workout 1">
+                <h3>Cardio</h3>
+                <p>Track your cardio sessions, including running, cycling, and more.</p>
+                <a href="file:///C:/Users/Siva/Desktop/fitness%20proj/cardio.html"><button>Start Workout</button></a>
+            </div>
+            <div class="workout-card">
+                <img src="pic3.jpg" alt="Workout 2">
+                <h3>Strength Training</h3>
+                <p>Log your weightlifting and resistance training exercises.</p>
+                <a href="file:///C:/Users/Siva/Desktop/fitness%20proj/strength.html"><button>Start Workout</button></a>
+            </div>
+            <div class="workout-card">
+                <img src="pic4.jpg" alt="Workout 3">
+                <h3>Yoga</h3>
+                <p>Track your yoga sessions to improve flexibility and relaxation.</p>
+                <a href=""></a><button>Start Workout</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Section -->
+    <section id="progress">
+        <h2>Your Progress</h2>
+        <div class="progress-tracking">
+            <div class="progress-bar">
+                <label>Steps Today</label>
+                <div class="bar-container">
+                    <div class="bar-filled" style="width: 75%;"></div>
+                </div>
+                <p>7,500 Steps</p>
+            </div>
+            <div class="progress-bar">
+                <label>Calories Burned</label>
+                <div class="bar-container">
+                    <div class="bar-filled" style="width: 60%;"></div>
+                </div>
+                <p>450 kcal</p>
+            </div>
+            <div class="progress-bar">
+                <label>Workouts Completed</label>
+                <div class="bar-container">
+                    <div class="bar-filled" style="width: 90%;"></div>
+                </div>
+                <p>18/20 Workouts</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <h2>Your Profile</h2>
+        <div class="profile-info">
+            <div class="profile-photo">
+                <img src="pic5.jpg" alt="Profile Picture">
+            </div>
+            <div class="profile-details">
+                <h3>John Doe</h3>
+                <p>Age: 28</p>
+                <p>Height: 5'9"</p>
+                <p>Weight: 160 lbs</p>
+                <p>Goal: Lose 10 lbs</p>
+            </div>
+        </div>
+        <button>Edit Profile</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions or need support, feel free to reach out!</p>
+        <form action="/submit" method="POST">
+            <input type="email" placeholder="Your email" required>
+            <textarea placeholder="Your message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Personal Fitness Tracker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
