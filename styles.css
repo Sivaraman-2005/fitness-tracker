@@ -1,0 +1,277 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#home {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#home .hero-image img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+#home .welcome-text h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+#home .welcome-text p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Workouts Section */
+#workouts {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#workouts h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.workout-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.workout-card {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.workout-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.workout-card h3 {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.workout-card p {
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.workout-card button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.workout-card button:hover {
+    background-color: #00796b;
+}
+
+/* Progress Section */
+#progress {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#progress h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.progress-tracking {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.progress-bar {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 30%;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.bar-container {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.bar-filled {
+    background-color: #009688;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.progress-bar p {
+    font-size: 16px;
+}
+
+/* Profile Section */
+#profile {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#profile h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-details {
+    text-align: left;
+}
+
+.profile-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #00796b;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00796b;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
